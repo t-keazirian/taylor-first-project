@@ -1,0 +1,98 @@
+
+/* Set border box to reset border settings */
+* {
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #6a8d73;
+    text-align: center;
+    color: #f0f8ff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #efd5c3;
+    color: #63474d
+}
+
+img {
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+    padding: 16px;
+}
+
+/* Provide propery spacing for paragraphs */
+.center {
+    margin: 10px 300px;
+} 
+
+h3, h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Line up elements so they line up on page */
+.line-up {
+    margin: 0px 30px;
+}
+
+/* Main paragraph margin bottom */
+.second-p {
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-position: outside;
+    margin: auto;
+}
+
+/* Proper Spacing for Ordered List items */
+.space {
+    padding: 10px 0px;
+}
+
+footer {
+    padding: 50px;
+    font-size: 12px;
+    background-color: #6a8d73;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    color: gainsboro;
+}
+
+/* Link Colors */
+a:link {
+    color: mediumaquamarine;
+}
+
+a:visited {
+    color: #9c528b;
+}
+
+a:hover {
+    color: #93b7be;
+}
+
+a:active {
+    color: magenta;
+}
